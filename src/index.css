@@ -1,4 +1,15 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  
+}
+
+navbar {
+  background: #F55A5A;
+  display: inline-block;
+  width: 100%;
+  padding: 0.625rem 0
+
 }
 

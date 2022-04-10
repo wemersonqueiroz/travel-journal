@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  text-align: center;
+  text-align: left;
+  font-family: Inter;
+  justify-content: center;
   
 }
 
@@ -9,7 +11,68 @@ navbar {
   background: #F55A5A;
   display: inline-block;
   width: 100%;
-  padding: 0.625rem 0
-
+  padding: 0.625rem 0;
+  margin-bottom: 50px;
+  text-align: center;
+  color:#fff;
+  font-weight: 300;
 }
 
+navbar.globe{
+  width: 10px;
+}
+
+.place--card {
+  display: flex;
+  margin: 0px 40px 18px;
+  align-items: center;
+}
+.place--img {
+  border-radius: 10px;
+  margin-right: 18px; 
+  height: 20%;
+  width: 30%;
+  max-width: 200px;
+}
+
+.location {
+  font-size: 0.625rem;
+  font-weight: 300;
+  display: inline;
+  margin:0 10px;
+  letter-spacing: 2px;
+  
+}
+.google--maps {
+  font-weight: 300;
+  font-size: 0.625rem;
+  text-decoration: underline;
+  color: gray;
+}
+div.place--text--box {
+  max-width: 10px;
+}
+.title {
+  margin-bottom: 18px;
+  font-weight:700
+}
+
+.period {
+  font-size: 0.625rem;
+  font-weight: 700;
+
+}
+.description {
+  font-size: 0.75rem;
+  line-height: 0px;
+  font-weight: 300;
+  
+}
+
+hr {
+  border: 0;
+  height: 0.5px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 40px 0;
+}
